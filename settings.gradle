@@ -1,0 +1,4 @@
+rootProject.name = 'gameon-cameraroom'
+
+include 'cameraroom-app'
+include 'cameraroom-wlpcfg'
