@@ -1,5 +1,5 @@
-# Game On! A Very Simple Room Service
+# Game On! Camera Room
 
-This is a very basic Java based room that contains no interesting puzzles to get lost in or confused by.
+This is a very basic Java based room that will talk to a Raspberry Pi camera.
 
 Cheers!
