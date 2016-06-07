@@ -2,22 +2,22 @@
 
     <!-- Enable features -->
     <featureManager>
-		<feature>websocket-1.1</feature>
+        <feature>websocket-1.1</feature>
         <feature>jsonp-1.0</feature>
-         <feature>jndi-1.0</feature>
+        <feature>jndi-1.0</feature>
     </featureManager>
 
     <!-- To access this server from a remote client add a host attribute to the following element, e.g. host="*" -->
     <httpEndpoint host="*" httpPort="9080"  id="defaultHttpEndpoint"/>
 
-	<logging traceSpecification="*=info"/>
+    <logging traceSpecification="*=info"/>
 
-	<!-- This is required to prevent the web apps from being lazily loaded -->
-	<webContainer deferServletLoad="false"/>
+    <!-- This is required to prevent the web apps from being lazily loaded -->
+    <webContainer deferServletLoad="false"/>
 
     <applicationMonitor dropinsEnabled="false"/>
     
-    <jndiEntry jndiName="imageSvcUrl" value="http://192.168.0.103:8000/user"/>
+    <jndiEntry jndiName="imageSvcUrl" value="${env.IMAGE_SVC_URL}"/>
     <jndiEntry jndiName="thisSvcUrl" value="ws://192.168.0.100:9080/rooms/cameraRoom"/>
     <jndiEntry jndiName="mapSvcUrl" value="http://192.168.0.103:9099/map/v1/sites"/>
     <jndiEntry jndiName="devKey" value="nxsXJdYYSAKWuyIoQ9zFakefLvL04Ullgx+DihgEZz0="/>

@@ -1,0 +1,17 @@
+{
+  "name":"CameraRoom",
+  "fullName":"A room with a device to capture images",
+  "description":"There is a table in the room with a camera on it. There is little button on the top of it which is just asking to be pushed by a brave adventurere such as yourself.",
+  "doors":{
+           "n":"A Large doorway to the north"
+           "s":"A winding path leading off to the south",
+           "e":"An overgrown road, covered in brambles",
+           "w":"A shiny metal door, with a bright red handle",
+           "u":"A spiral set of stairs, leading upward into the ceiling",
+           "d":"A tunnel, leading down into the earth",
+  },
+  "connectionDetails":{
+                       "type":"websocket",
+                       "target":"ws://WEBSOCKET_ENDPOINT/rooms/cameraRoom"
+  }
+}
