@@ -115,7 +115,7 @@ public class CameraRoom implements ServletContextListener {
     private static final String description = "There is a table in the room with a camera on it. There is little button on the top of it which is just asking to be pushed by a brave adventurere such as yourself.";
     
     // for running against the real remote gameon.
-    //String registrationUrl = "https://game-on.org/map/v1/sites";
+    //String registrationUrl = "https://gameontext.org/map/v1/sites";
     //String endPointUrl = "ws://<ip and port of host that gameon can reach>/rooms/simpleRoom
 
     // for when running in a docker container with game-on all running
